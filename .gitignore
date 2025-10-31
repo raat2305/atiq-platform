@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local development
+*.local
+tmp/
+temp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite specific
+.vite-temp/
+.vite/
+
+# Coverage
+coverage/
+*.lcov
+
+# Other
+pids
+*.pid
+*.seed
+*.pid.lock
